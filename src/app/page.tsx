@@ -9,7 +9,7 @@ import AboutMe from '@/components/ui/AboutMe'
 function page() {
   return (
     <>
-      <div className="mainLayout w-[1140px] bg-black h-screen text-white">
+      <div className="mainLayout w-[1440px] bg-black h-screen text-white justify-self-center">
         <div className="navBar w-[1440px] fixed">
           <Navbar />
         </div>
