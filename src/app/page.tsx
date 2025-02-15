@@ -5,6 +5,7 @@ import Discography from '@/components/ui/Discography'
 import Events from '@/components/ui/Events'
 import Gallery from '@/components/ui/Gallery'
 import AboutMe from '@/components/ui/AboutMe'
+import Footer from '@/components/ui/Footer'
 
 function page() {
   return (
@@ -18,6 +19,7 @@ function page() {
         <Discography />
         <Events />
         <Gallery />
+        <Footer />
 
       </div>
 
