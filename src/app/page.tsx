@@ -12,7 +12,7 @@ function page() {
     <>
       <div className="mainLayout w-[1440px] bg-black h-screen text-white justify-self-center">
 
-        <div className="navBar w-[1440px] fixed">
+        <div className="navBar w-[1440px] fixed text-xl">
           <div className="navBar ${neuton.className} w-[1440px] flex flex-col justify-between items-center mx-auto p-5">
             <div className="logo  p-3">
               <img src="./logo.png" height="40px" width="40px" alt="Logo" />
