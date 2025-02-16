@@ -2,14 +2,14 @@ import React from 'react'
 
 function NavBar() {
   return (
-    <div className="navBar w-[1440px] flex flex-col justify-between items-center mx-auto p-5">
-      <div className="logo h-[40px] w-[40px] ">
-        <img src="./logo.png" alt="Logo" />
+    <div className="navBar ${neuton.className} w-[1440px] flex flex-col justify-between items-center mx-auto p-5">
+      <div className="logo  p-3">
+        <img src="./logo.png" height="40px" width="40px" alt="Logo" />
       </div>
 
-      <div className=" ">
-        <ul className="flex flex-row justify-between p-5">
-          <li className="p-10">
+      <div className="">
+        <ul className="flex flex-row justify-between">
+          <li className="p-10 font-thin">
             <a href="">home</a>
           </li>
           <li className="p-10">
