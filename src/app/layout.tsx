@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Neuton, Bricolage_Grotesque } from "next/font/google";
+import { Geist, Geist_Mono, Neuton } from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -37,7 +37,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${neuton.variable} ${bricolageBig.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${neuton.variable} antialiased`}
       >
         {children}
       </body>
