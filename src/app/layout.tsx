@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Neuton } from "next/font/google";
+import { Geist, Geist_Mono, Neuton, Bricolage_Grotesque } from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -23,6 +23,12 @@ export const metadata: Metadata = {
   description: "Rapper's portfolio",
 };
 
+export const bricolageBig = Bricolage_Grotesque({
+  variable: "--font-bricolage-big",
+  weight: "700",
+  subsets: ["latin"],
+});
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -31,7 +37,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${neuton.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${neuton.variable} ${bricolageBig.variable} antialiased`}
       >
         {children}
       </body>
