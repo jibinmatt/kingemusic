@@ -23,6 +23,12 @@ export const metadata: Metadata = {
   description: "Rapper's portfolio",
 };
 
+// export const bricolageBig = Bricolage_Grotesque({
+//   variable: "--font-bricolage-big",
+//   weight: "700",
+//   subsets: ["latin"],
+// });
+
 export default function RootLayout({
   children,
 }: Readonly<{
