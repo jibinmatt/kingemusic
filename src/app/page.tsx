@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../components/ui/NavBar'
+// import Navbar from '../components/ui/NavBar'
 import HomePage from '@/components/ui/HomePage'
 import Discography from '@/components/ui/Discography'
 import Events from '@/components/ui/Events'
