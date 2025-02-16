@@ -14,11 +14,11 @@ function HomePage() {
       <div className="HomePageZ1 flex flex-col items-center justify-center ">
 
         <div className="heroImage p-20">
-          <img src="./heroimagekinge.png" alt="" className='h-[500px] w-[500px]' />
+          <img src="./heroimagekinge.png" alt="" className='h-[350px] w-[350px]' />
         </div>
 
         <div className="ctaDiscoverButton">
-          <button className="ctaDiscoverButton rounded-full h-[70px] w-[300px] bg-white text-black">discover my work</button>
+          <button className="ctaDiscoverButton rounded-full h-[60px] w-[250px] bg-white text-black">discover my work</button>
         </div>
 
       </div>
