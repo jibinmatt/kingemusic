@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Neuton, Bricolage_Grotesque } from "next/font/google";
+import { Neuton, Bricolage_Grotesque } from "next/font/google";
 import "./globals.css";
 
 // const geistSans = Geist({
@@ -12,13 +12,13 @@ import "./globals.css";
 //   subsets: ["latin"],
 // });
 
-export const neuton = Neuton({
+const neuton = Neuton({
   variable: "--font-neuton",
   weight: ["200", "300", "400", "700", "800"],
   subsets: ["latin"],
 });
 
-export const bricolageBig = Bricolage_Grotesque({
+const bricolageBig = Bricolage_Grotesque({
   variable: "--font-bricolage-big",
   weight: "700",
   subsets: ["latin"],
