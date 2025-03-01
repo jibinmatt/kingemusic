@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 function HomePage() {
   return (
@@ -14,7 +15,7 @@ function HomePage() {
       <div className="HomePageZ1 flex flex-col items-center justify-center z-10">
 
         <div className="heroImage  -z-1  w-full h-full justify-center items-center pt-80">
-          <img src="./heroimagekinge.png" alt="" className='h-[350px] w-[350px]' />
+          <Image src="/heroimagekinge.png" alt="hero image" width={350} height={350} />
         </div>
 
         <div className="ctaDiscoverButton flex flex-col items-center justify-center pt-40">
@@ -22,10 +23,7 @@ function HomePage() {
         </div>
 
       </div>
-
-
-
-
+      
     </div>
   )
 }

@@ -1,10 +1,11 @@
 import React from 'react'
+import Image from 'next/image'
 
 function NavBar() {
   return (
     <div className="navBar ${neuton.className} w-[1440px] flex flex-col justify-between items-center mx-auto p-5">
       <div className="logo  p-3">
-        <img src="./logo.png" height="40px" width="40px" alt="Logo" />
+        <Image src="/logo.png" height={40} width={40} alt="Logo" />
       </div>
 
       <div className="">
