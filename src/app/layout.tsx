@@ -38,7 +38,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body
-        className={`${bricolageBig.variable} ${neuton.variable} font-neuton antialiased`}
+        className={`${bricolageBig.variable} ${neuton.variable} font-neuton antialiased bg-black`}
       >
         {children}
       </body>

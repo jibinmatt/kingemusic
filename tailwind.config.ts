@@ -10,6 +10,16 @@ export default {
   ],
   theme: {
   	extend: {
+      keyframes: {
+        marquee: {
+          from: { transform: "translateX(0%)" },
+          to: { transform: "translateX(-50%)" }, // Moves left infinitely
+        },
+      },
+      animation: {
+        marquee: "marquee 25s linear infinite",
+        marqueeSpedUp: "marquee 15s linear infinite",
+      },
       fontFamily: {
         neuton: ['var(--font-neuton)']
       },
