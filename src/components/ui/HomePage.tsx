@@ -4,7 +4,7 @@ import TextScroll from './TextScroll'
 
 function HomePage() {
   return (
-    <div className='w-[1440px] bg-black h-screen flex flex-col justify-end items-center border-2 border-red-900'>
+    <div className='w-[1440px] bg-black h-screen flex flex-col justify-end items-center'>
 
       <div className="HomePageZ1 flex flex-col items-center justify-end ">
 
