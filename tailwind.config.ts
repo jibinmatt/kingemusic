@@ -17,6 +17,7 @@ export default {
         },
       },
       animation: {
+        slowSpin: 'spin 7s linear infinite',
         marquee: "marquee 50s linear infinite",
         marqueeSpedUp: "marquee 15s linear infinite",
       },
