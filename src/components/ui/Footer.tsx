@@ -4,7 +4,7 @@ import TextScroll from './TextScroll'
 
 function Footer() {
   return (
-    <div className='w-[1440px]  bg-black h-screen flex flex-col justify-end items-center'>
+    <div className='w-[1440px]  h-screen flex flex-col justify-end items-center'>
       <TextScroll />
       <div className='z-[50] flex flex-col items-center justify-evenly text-3xl font-sans my-72 h-[13rem]'>
         <div><p>Well that&apos;s all folks, you can reach out </p></div>
@@ -41,7 +41,7 @@ function Footer() {
           </a>
         </div>
       </div>
-      <Image src="/images/ECLan-White.png" width={100} height={100} alt='E Clan logo' />
+      <Image src="images/ECLan-White.png" width={100} height={100} alt='E Clan logo' />
     </div>
   )
 }

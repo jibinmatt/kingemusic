@@ -5,7 +5,7 @@ import BackgroundGlow from './BackgroundGlow'
 
 function HomePage() {
   return (
-    <div className='w-[1440px] bg-black h-screen flex flex-col justify-end items-center p-5'>
+    <div className='w-[1440px] h-screen flex flex-col justify-end items-center p-5'>
 
       <div className="HomePage flex flex-col items-center justify-end">
 
@@ -23,9 +23,9 @@ function HomePage() {
           </button>
         </div>
 
-      </div>
+      </div >
 
-    </div>
+    </div >
   )
 }
 

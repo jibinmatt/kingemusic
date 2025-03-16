@@ -10,7 +10,7 @@ import Footer from '@/components/ui/Footer'
 function page() {
   return (
     <>
-      <div className="mainLayout w-[1440px] bg-black h-screen text-white justify-self-center ">
+      <div style={{ backgroundImage: `url('/images/gradient-bg.svg')` }} className="mainLayout w-full text-white flex flex-col justify-self-center items-center bg-cover bg-center">
 
         <Navbar />
         <div className="navItem" id="home"> <HomePage /> </div>
