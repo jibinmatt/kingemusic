@@ -3,10 +3,10 @@ import Image from 'next/image'
 
 function NavBar() {
   return (
-    <div className="navBar w-[1440px] fixed text-xl z-[50]">
+    <div className="navBar w-[1440px] h-[170px] fixed text-lg  z-[50] backdrop-blur-lg border-2 border-red-900">
       <div className="navBar ${neuton.className} w-full flex flex-col justify-between items-center mx-auto p-5">
         <div className="logo p-3">
-          <Image src="/images/logo.png" width={40} height={40} alt="Logo" />
+          <Image src="/images/logo.png" width={35} height={35} alt="Logo" />
         </div>
 
         <div>

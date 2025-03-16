@@ -17,7 +17,7 @@ export default {
         },
       },
       animation: {
-        marquee: "marquee 25s linear infinite",
+        marquee: "marquee 50s linear infinite",
         marqueeSpedUp: "marquee 15s linear infinite",
       },
       fontFamily: {

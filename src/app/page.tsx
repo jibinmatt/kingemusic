@@ -18,7 +18,7 @@ function page() {
         <div className="navItem" id="discography"> <Discography /> </div>
         <div className="navItem" id="events"> <Events /> </div>
         <div className="navItem" id="gallery"> <Gallery /> </div>
-        <Footer /> 
+        <Footer />
       </div>
 
     </>
