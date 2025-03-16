@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 function AboutMe() {
   return (
-    <div className='w-[1440px] bg-black h-screen flex flex-row justify-center items-center border-2 border-red-900'>
+    <div className='w-[1440px] h-screen flex flex-row justify-center items-center border-2 border-red-900'>
 
       <div className="w-[500px]">
         <Image src="/images/aboutmeimage.png" alt="side-profile-picture" width={300} height={300} className='aboutMeImage w-[300px]' />
