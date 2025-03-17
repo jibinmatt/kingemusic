@@ -30,3 +30,10 @@ function HomePage() {
 }
 
 export default HomePage
+
+
+// const mediaObj = {
+//   thumbnailUrl: "",
+//   title: "",
+//   mediaUrl: ""
+// }

@@ -11,7 +11,7 @@ function page() {
   return (
     <>
       <div style={{ backgroundImage: `url('/images/gradient-bg.svg')` }} className="mainLayout w-full text-white flex flex-col justify-self-center items-center bg-cover bg-center">
-        <div style={{ backgroundImage: `url('/images/noise-bg.svg')` }} className=" w-full  text-white flex flex-col justify-self-center items-center bg-cover bg-center ">
+        <div style={{ backgroundImage: `url('/images/noise-bg.svg')` }} className=" w-full  text-white flex flex-col justify-self-center items-center bg-cover bg-center">
           <Navbar />
           <div className="navItem" id="home"> <HomePage /> </div>
           <div className="navItem" id="aboutme"> <AboutMe /> </div>
