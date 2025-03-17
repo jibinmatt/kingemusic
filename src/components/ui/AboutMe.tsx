@@ -1,6 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
-
 function AboutMe() {
   return (
     <div className='w-[1440px] h-screen flex flex-row justify-center items-end border-2 border-red-900'>
